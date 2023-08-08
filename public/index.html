@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href=".%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -10,34 +10,34 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta http-equiv="Content-Security-Policy" content="style-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/webfonts/fa-brands-400.woff2 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css https://fonts.googleapis.com https://pro.fontawesome.com/releases/v5.10.0/css/all.css https://cdn.lineicons.com/4.0/lineicons.css https://cdn.lineicons.com/4.0/lineicons.css https://cdn.lineicons.com/4.0/lineicons.css https://kit.fontawesome.com/7c8c780ff2.css https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css https://fonts.googleapis.com https://pro.fontawesome.com/releases/v5.10.0/css/all.css 'unsafe-inline';  font-src 'self' https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKOzY.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKOzY.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKOzY.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKOzY.woff2 https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/webfonts/fa-solid-900.ttf https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/webfonts/fa-solid-900.woff https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/webfonts/fa-solid-900.woff2 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/webfonts/fa-regular-400.ttf https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/webfonts/fa-regular-400.woff https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/webfonts/fa-regular-400.woff2 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/webfonts/fa-brands-400.ttf https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/webfonts/fa-brands-400.woff https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/webfonts/fa-brands-400.woff2 https://fonts.gstatic.com/s/spartan/v18/l7gfbjR61M69yt8Z2QytlBfK.woff2 https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2 https://fonts.gstatic.com/s/spartan/v18/l7gfbjR61M69yt8Z2QytlBfK.woff2 https://fonts.gstatic.com/s/spartan/v18/l7gfbjR61M69yt8Z2QytlBfK.woff2 https://fonts.gstatic.com/s/spartan/v18/l7gfbjR61M69yt8Z2QKtlA.woff2 https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYmRjRdE.woff2 https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISma2RjRdE.woff2 https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmY2RjRdE.woff2 https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmbGRjRdE.woff2 https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYGRjRdE.woff2 https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYWRjRdE.woff2 https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2 https://fonts.gstatic.com/s/notosans/v28/o-0NIpQlx3QUlC5A4PNjXhFVadyB1Wk.woff2 https://fonts.gstatic.com/s/notosans/v28/o-0NIpQlx3QUlC5A4PNjXhFVYNyB1Wk.woff2 https://fonts.gstatic.com/s/notosans/v28/o-0NIpQlx3QUlC5A4PNjXhFVZdyB1Wk.woff2 https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2 https://fonts.gstatic.com/s/notosans/v28/o-0NIpQlx3QUlC5A4PNjXhFVaNyB1Wk.woff2 https://fonts.gstatic.com/s/notosans/v28/o-0NIpQlx3QUlC5A4PNjXhFVZ9yB1Wk.woff2 https://fonts.gstatic.com/s/notosans/v28/o-0NIpQlx3QUlC5A4PNjXhFVa9yB1Wk.woff2 https://fonts.gstatic.com/s/notosans/v28/o-0NIpQlx3QUlC5A4PNjXhFVatyB1Wk.woff2 https://fonts.gstatic.com/s/notosans/v28/o-0NIpQlx3QUlC5A4PNjXhFVZNyB.woff2 https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2 https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecmNE.woff2 https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2 https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2 https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2 https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2 https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2 https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2 https://cdn.lineicons.com/4.0/fonts/lineicons.woff2 https://cdn.lineicons.com/4.0/fonts/lineicons.woff https://cdn.lineicons.com/4.0/fonts/lineicons.ttf https://kit.fontawesome.com/7c8c780ff2.js https://fonts.gstatic.com/s/spartan/v14/l7gfbjR61M69yt8Z2QytlBfK.woff2 https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2 https://fonts.gstatic.com/s/spartan/v14/l7gfbjR61M69yt8Z2QKtlA.woff2 https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYmRjRdE.woff2 https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISma2RjRdE.woff2 https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmY2RjRdE.woff2 https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmbGRjRdE.woff2 https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYGRjRdE.woff2 https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYWRjRdE.woff2 https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-v4compatibility.ttf https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-solid-900.woff2 https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-solid-900.ttf https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-brands-400.woff2 https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-brands-400.ttf https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-regular-400.woff2 https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-regular-400.ttf https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-v4compatibility.woff2 https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.woff2 https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.woff https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.ttf https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-duotone-900.woff2 https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-duotone-900.woff2 https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-duotone-900.woff https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-duotone-900.ttf https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.woff2 https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.ttf https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.woff https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.ttf https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.woff2 https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.woff https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.ttf https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.woff https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.woff2"/>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+   
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    
+    <title>Cara - Get Stylish With Cara</title>
+    <link href="../src/components/Admin/plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Chartist -->
+    <link rel="stylesheet" href="../src/components/Admin/plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="../src/components/Admin/plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <!-- Custom Stylesheet -->
+    <link href="../src/components/Admin/css/style.css" rel="stylesheet">
+    
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="root"></div>   
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+    <!-- <script src="../src/components/Admin/plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+    <!-- <script src="../src/functionality.js"></script> -->
   </body>
 </html>
+
+
+
