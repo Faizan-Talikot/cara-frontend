@@ -28,7 +28,7 @@ const Login = (props) => {
           navigate("/Adminpage")
         }else{
         
-        const response = await fetch("http://localhost:5000/api/auth/login", {
+        const response = await fetch("https://cara-api-3ekq.onrender.com/api/auth/login", {
             method: "POST", 
             headers: {
               "Content-Type": "application/json"

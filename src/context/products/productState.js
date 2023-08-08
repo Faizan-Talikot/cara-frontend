@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import productContext from "./productContext";
 
 const ProductState = (props) => {
-  const host = "http://localhost:5000"
+  const host = "https://cara-api-3ekq.onrender.com"
      
     const ordersInitial = []
     const [orders, setOrders] = useState(ordersInitial);
